@@ -4,6 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		System.out.println("Hello");
+		Task task1 = new Task("Task1", 20);
+		System.out.println("Task name is: " + task1);
 	}
 }

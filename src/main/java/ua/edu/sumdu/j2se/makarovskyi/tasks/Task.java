@@ -130,6 +130,10 @@ public class Task {
         return nextTime;
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Task{" +
+                "title='" + title + '\'' +
+                '}';
+    }
 }
